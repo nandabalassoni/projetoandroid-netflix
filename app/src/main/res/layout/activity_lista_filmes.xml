@@ -10,8 +10,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
         android:text="@string/título_screen"
-        android:textSize="28sp" />
+        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/image_movie"
@@ -26,9 +28,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/título_filme"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@color/purple_200"
         android:layout_alignStart="@+id/image_movie"
         android:layout_alignBottom="@+id/image_movie"
-        android:layout_marginBottom="-30dp"
+        android:layout_marginBottom="-38dp"
         android:layout_marginStart="88dp"/>
 
 </RelativeLayout>
